@@ -28,5 +28,8 @@ $command = $rootDir . "framework/bin/runjava com.rabbitmq.perf.PerfTestMulti $co
 
 @exec($command);
 
-echo "http://localhost:8080/output/publish-consume-basic.html?js_file=" . $output_name;
+echo "http://localhost:8080/output/consume.html?js_file=" . $output_name."\n";
+echo "http://localhost:8080/output/message-sizes-and-producers.html?js_file=" . $output_name."\n";
+echo "http://localhost:8080/output/message-sizes-large.html?js_file=" . $output_name."\n";
+echo "http://localhost:8080/output/rate-vs-latency.html?js_file=" . $output_name."\n";
 
