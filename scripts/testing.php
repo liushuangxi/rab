@@ -13,7 +13,7 @@ if (empty($config)) {
     exit;
 }
 
-$config = $rootDir . "configs/" . trim($config, ".js") . ".js";
+$config = $rootDir . "configs/" . $config . ".js";
 if (!file_exists($config)) {
     echo "config不存在; 例:demo(对应configs/demo.js)\n";
     exit;
