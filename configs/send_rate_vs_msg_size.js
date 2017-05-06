@@ -1,6 +1,6 @@
 [
     {
-        'name': 'rate_with_msg_number_and_size',
+        'name': 'send_rate_vs_msg_size',
         'type': 'varying',
         'params': [
             {
@@ -10,7 +10,7 @@
         'variables': [
             {
                 'name': 'min-msg-size',
-                'values': [5000, 10000, 50000, 100000, 500000, 1000000]
+                'values': [500, 1000, 5000, 10000, 50000, 100000]
             }
         ]
     }
