@@ -4,10 +4,18 @@
 ### 启动server
 <pre>
 php scripts/server.php
+
+或
+
+./scripts/server.sh
 </pre>
 ### 启动testing
 <pre>
 php scripts/testing.php
+
+或
+
+./scripts/testing.sh
 
 注:性能测试比较耗时,大约几分钟
 </pre>
