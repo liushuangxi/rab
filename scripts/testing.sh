@@ -21,7 +21,7 @@ fi
 fileName=`date --date='0 days ago' +%Y%m%d%H%M%S`
 filePath="framework/html/data/"$fileName".js"
 
-cmd="framework/bin/runjava com.rabbitmq.perf.PerfTestMulti configs/"$1".js "$filePath
+cmd="framework/bin/runjava com.rabbitmq.perf.PerfTestMulti configs/"$1".js "$filePath" > /dev/null"
 
 eval $cmd
 
