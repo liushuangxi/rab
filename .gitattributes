@@ -1,1 +1,3 @@
 *.sh linguist-language=shell
+*.js linguist-language=shell
+*.php linguist-language=shell
